@@ -1,0 +1,53 @@
+#first{
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color:darkcyan;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.second{
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color:cornflowerblue;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+li > p{      /*child*/
+    font-size: 20px;
+    color:rgb(227, 58, 72);
+}
+
+/*ul p{      /*descend
+    font-size: 20px;
+    color:rgb(227, 58, 72);
+}*/
+
+h1 + h2{      /*only applies to h2*/
+    color: darkseagreen;
+}
+
+/*universal selector
+
+*{
+    color:deeppink;
+}
+
+*/
+
+
+/*type selector
+
+h1, h2{
+    font-family: cursive;
+}
+*/
