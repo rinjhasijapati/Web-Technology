@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    border:10px solid rebeccapurple;
+    max-width: 5%;
+    text-align: center;
+    background-color:cornflowerblue;
+    padding:5px;
+}
