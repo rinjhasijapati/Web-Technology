@@ -2,15 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+   
 }
 
+.main{
+    display: inline-block;
+}
+
+.second{
+    display: inline-block;
+}
 
 .box{
     border:10px solid rebeccapurple;
     text-align:center;
     background-color:cornflowerblue;
     padding:5px;
-    height:200px;
-    width:200px;
+    height:100px;
+    width:100px;
     margin: 50px;
+    overflow:scroll;
+}
+
+.box-x{
+    border:10px solid pink;
+    text-align:center;
+    background-color:yellow;
+    padding:5px;
+    height:100px;
+    width:100px;
+    margin: 50px;
+    overflow:hidden;
 }
