@@ -6,6 +6,17 @@ body {
 ul {
     list-style:square;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    position: relative;
+    top:-140px;
+    left: 190px;
+}
 
 .a {
     list-style: decimal;
@@ -23,6 +34,8 @@ ul {
 }
 
 table {
+    position: relative;
+    top: 100px;
     height:200px;
     width:200px;
     border-style:solid;
@@ -32,12 +45,14 @@ table {
     size: 10px;
     padding: 20px;
     border: 1px solid black;
-
 }
+
 th,td{
     size:10%;
     padding:20px;
-    border:1px solid black;
-    
+    border:1px solid rgb(255, 255, 255);
+     /* border-collapse: collapse; => collapses the table margin */
 }
+
+/* To study: empty cell */
 
