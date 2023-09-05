@@ -1,0 +1,45 @@
+body {
+    background-color: antiquewhite;
+    display: grid;
+}
+
+.container {
+    height: 150%;
+    width: 150%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.slide-container {
+    display: flex;
+    width: 100px;
+    animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translate(-2000px);
+    }
+}
+
+.slide-image {
+    padding: 20px;
+    perspective: 100px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translateZ(20px);
+    cursor: pointer;
+}
+
