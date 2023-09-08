@@ -11,3 +11,5 @@ function display() {
     document.write(a);
     console.log(a);
 }
+
+
