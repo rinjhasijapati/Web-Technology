@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   
+    <label>Enter 3 numbers:</label><br>
+    <input type="text" id="first" placeholder="Enter 1st number"><br>
+    <input type="text" id="second" placeholder="Enter 2nd number"><br>
+    <input type="text" id="third" placeholder="Enter 3rd number"><br>
+    <label>The largest number :</label>
+    <p id="result"></p><br>
+
+
+    <button onclick="display()">CLick</button>
+    <script>
+    
+    
+    var a = document.getElementById("first").value;
+    var b = document.getElementById("second").value;
+    var c = document.getElementById("third").value;
+    // a= parseInt(a);
+    // b = parseInt(b);
+    // c = parseInt(c);
+
+
+    function display(){
+   
+
+        if(a>b&&a>c){
+
+        document.getElementById("result").textContent=a;
+       
+        console.log(a);
+        
+        
+    }else if(b>a&&b>c){
+        document.getElementById("result").textContent=b;
+
+
+    }else{
+        document.getElementById("result").textContent=c;
+
+    }
+    return null;
+
+    }
+   
+
+    </script>
+    
+</body>
+</html>
