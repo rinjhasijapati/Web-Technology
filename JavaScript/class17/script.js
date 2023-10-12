@@ -5,7 +5,7 @@ function addition() {
     b = parseInt(b);
     var sum = a + b;
     document.getElementById("sum").value = sum;
-    document.getElementById("para").innerHTML = sum;
+    //document.getElementById("para").innerHTML = sum;
 }
 
 function subtraction() {
